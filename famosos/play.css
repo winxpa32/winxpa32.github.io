@@ -1,0 +1,77 @@
+*{
+	font-family: 'Bebas Neue', cursive;
+}
+
+body{
+	background-image: linear-gradient(to right,#d91f11, #000000);
+	color: #ffffff;
+}
+
+h1{
+	text-align: center;
+	font-family: 'Bebas Neue', cursive;
+	font-size: 48px;
+}
+
+
+a{
+	color: #ffffff;
+	font-family: 'Bebas Neue', cursive;
+	font-size: 24px;
+	text-decoration-line: none;
+}
+
+.gen{
+	padding: 16px;
+	border-radius: 16px;
+	background-image: linear-gradient(to right,#d91f11, #111182);
+	color: #ffffff;
+	font-size: 24px;
+	border: none;
+}
+
+.inp{
+	background-color: #ffffff;
+	color: #000000;
+	padding: 12px;
+	font-size: 24px;
+	border-radius: 14px;
+	border: none;
+}
+
+img{
+	width: 128px;
+	height: 128px;
+	padding: 32px;
+	border-radius: 64px;
+}
+
+span{
+	padding: 32px;
+}
+
+.tab{
+	text-align: center;
+	position: relative;
+	margin: 0 auto;
+	font-size: 32px;
+}
+
+.marcador{
+	font-size: 24px;
+	text-align: center;
+}
+
+.win{
+	text-align: center;
+	font-size: 32px;
+}
+
+@media only screen and (max-width: 500px){
+
+	img{
+		width: 100px;
+		height: 100px;
+	}
+
+}

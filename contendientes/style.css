@@ -1,0 +1,65 @@
+body{
+	background-image: linear-gradient(to right,#111182, #000000);
+	color: #ffffff;
+}
+
+h1{
+	text-align: center;
+	font-family: 'Bebas Neue', cursive;
+	font-size: 48px;
+}
+
+h2{
+	text-align: center;
+	font-family: 'Bebas Neue', cursive;
+	font-size: 32px;
+}
+
+a{
+	color: #ffffff;
+	font-family: 'Bebas Neue', cursive;
+	font-size: 24px;
+	text-decoration-line: none;
+}
+
+img{
+	width: 150px;
+	height: 150px;
+	padding: 12px;
+	border-radius: 32px;
+}
+
+.famosos{
+	text-align: center;
+	position: relative;
+	margin: 0 auto;
+}
+
+.contendientes{
+	text-align: center;
+	position: relative;
+	margin: 0 auto;
+}
+
+.play{
+	background-color: #111182;
+	padding: 24px;
+	border-radius: 24px;
+	width: 256px;
+	text-align: center;
+	position: relative;
+	margin: 0 auto;
+}
+
+@media only screen and (max-width: 500px){
+
+	img{
+		width: 100px;
+		height: 100px;
+	}
+
+	h1{
+		font-size: 32px;
+	}
+
+}
